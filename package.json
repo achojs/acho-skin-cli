@@ -1,0 +1,35 @@
+{
+  "name": "acho-skin-cli",
+  "description": "A correct levels of logs for create CLI commands",
+  "homepage": "https://github.com/achohq/acho-skin-cli",
+  "version": "0.0.0",
+  "main": "./index.js",
+  "author": {
+    "name": "Kiko Beats",
+    "email": "josefrancisco.verdu@gmail.com",
+    "url": "https://github.com/Kikobeats"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achohq/acho-skin-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/achohq/acho-skin-cli/issues"
+  },
+  "keywords": [
+    "acho",
+    "cli",
+    "skin"
+  ],
+  "dependencies": {
+    "coffee-script": "~1.10.0"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "test": "echo 'test on acho project'"
+  },
+  "license": "MIT"
+}
