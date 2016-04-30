@@ -2,7 +2,7 @@
   "name": "acho-skin-cli",
   "description": "A correct levels of logs for create CLI commands",
   "homepage": "https://github.com/achohq/acho-skin-cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "./index.js",
   "author": {
     "name": "Kiko Beats",
