@@ -5,7 +5,7 @@
 [![Dependency status](https://img.shields.io/david/achohq/acho-skin-cli.svg?style=flat-square)](https://david-dm.org/achohq/acho-skin-cli)
 [![Dev Dependencies Status](https://img.shields.io/david/dev/achohq/acho-skin-cli.svg?style=flat-square)](https://david-dm.org/achohq/acho-skin-cli#info=devDependencies)
 [![NPM Status](https://img.shields.io/npm/dm/acho-skin-cli.svg?style=flat-square)](https://www.npmjs.org/package/acho-skin-cli)
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/achohq)
+[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
 
 > A correct levels of logs for create CLI commands.
 
