@@ -18,7 +18,7 @@ $ npm install acho-skin-cli --save
 ## Usage
 
 ```js
-const Acho = require('Acho').skin(require('acho-skin-cli'))
+const Acho = require('acho').skin(require('acho-skin-cli'))
 ```
 ## License
 
