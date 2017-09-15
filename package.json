@@ -21,18 +21,32 @@
     "cli",
     "skin"
   ],
-  "dependencies": {
-    "coffee-script": "~1.12.0"
-  },
+  "files": [
+    "index.js"
+  ],
   "devDependencies": {
-    "acho": "latest"
+    "acho": "latest",
+    "mocha": "latest",
+    "should": "latest"
+  },
+  "peerDependencies": {
+    "acho": "4.x"
   },
   "engines": {
-    "node": ">= 0.10"
+    "node": ">= 4"
   },
   "scripts": {
     "clean": "rm -rf node_modules",
-    "test": "echo 'test on acho project'"
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "standard-markdown && standard",
+    "precommit": "lint-staged",
+    "pretest": "npm run lint",
+    "test": "nyc mocha"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
   },
   "license": "MIT"
 }
