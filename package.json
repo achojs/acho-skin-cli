@@ -25,7 +25,9 @@
     "acho": "latest",
     "mocha": "latest",
     "nyc": "latest",
-    "should": "latest"
+    "should": "latest",
+    "standard": "latest",
+    "standard-markdown": "latest"
   },
   "engines": {
     "node": ">= 4"
