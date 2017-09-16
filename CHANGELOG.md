@@ -1,3 +1,10 @@
+<a name="2.0.1"></a>
+## 2.0.1 (2017-09-16)
+
+* Add node4 compatibility ([6445f46](https://github.com/achohq/acho-skin-cli/commit/6445f46))
+
+
+
 <a name="2.0.0"></a>
 # 2.0.0 (2017-09-16)
 
