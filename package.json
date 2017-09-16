@@ -2,11 +2,11 @@
   "name": "acho-skin-cli",
   "description": "A correct levels of logs for create CLI commands",
   "homepage": "https://github.com/achohq/acho-skin-cli",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "./index.js",
   "author": {
-    "name": "Kiko Beats",
     "email": "josefrancisco.verdu@gmail.com",
+    "name": "Kiko Beats",
     "url": "https://github.com/Kikobeats"
   },
   "repository": {
@@ -21,21 +21,18 @@
     "cli",
     "skin"
   ],
-  "files": [
-    "index.js"
-  ],
   "devDependencies": {
     "acho": "latest",
     "mocha": "latest",
-    "should": "latest",
-    "nyc": "latest"
-  },
-  "peerDependencies": {
-    "acho": "4.x"
+    "nyc": "latest",
+    "should": "latest"
   },
   "engines": {
     "node": ">= 4"
   },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "clean": "rm -rf node_modules",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
@@ -44,10 +41,13 @@
     "pretest": "npm run lint",
     "test": "nyc mocha"
   },
+  "license": "MIT",
+  "peerDependencies": {
+    "acho": "4.x"
+  },
   "standard": {
     "env": [
       "mocha"
     ]
-  },
-  "license": "MIT"
+  }
 }
