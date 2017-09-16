@@ -27,7 +27,8 @@
   "devDependencies": {
     "acho": "latest",
     "mocha": "latest",
-    "should": "latest"
+    "should": "latest",
+    "nyc": "latest"
   },
   "peerDependencies": {
     "acho": "4.x"
