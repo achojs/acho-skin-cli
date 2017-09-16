@@ -1,6 +1,6 @@
 'use strict'
 
-const {constants: CONST} = require('acho')
+const CONST = require('acho').constants
 
 module.exports = {
   debug: {
