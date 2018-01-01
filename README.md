@@ -2,7 +2,7 @@
 
 <p align="center">
   <br>
-  <img src="https://cdn.rawgit.com/marionebl/1379477c9fec8b69648fd8ae2a6feb82/raw/14512d55ad9a4e9cfe81e81b524043452d81fedd/example.svg" alt="demo">
+  <img src="./docs/images/example.svg" alt="demo">
   <br>
   <br>
 </p>
