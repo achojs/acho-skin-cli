@@ -2,7 +2,7 @@
 
 <p align="center">
   <br>
-  <img src="./docs/images/example.svg" alt="demo">
+  <img src="https://rawgit.com/achojs/acho-skin-cli/a02747f78882eefa472c39bab9bf9afbee637788/docs/images/example.svg" alt="demo">
   <br>
   <br>
 </p>
